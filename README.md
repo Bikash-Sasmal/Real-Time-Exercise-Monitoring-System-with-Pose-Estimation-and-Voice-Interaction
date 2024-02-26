@@ -14,7 +14,7 @@
     </ul>
     <h2>Requirements:</h2>
 <ul>
-    <li><p>Python 3.x</p></li>
+    <li><p>Python</p></li>
     <li><p>Libraries: MediaPipe, OpenCV, NumPy, pyttsx3, SpeechRecognition</p></li>
 </ul>
 <h2>Additional Notes:</h2>
