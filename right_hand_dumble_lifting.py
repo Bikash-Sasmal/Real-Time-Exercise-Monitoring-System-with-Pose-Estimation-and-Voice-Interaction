@@ -11,8 +11,8 @@ counter = 0
 stage = "up"
 
 def perform_pose_right(hand = "right", side = "right"):
-    cap = cv2.VideoCapture(0)
 
+    cap = cv2.VideoCapture(0)
     # Curl counter variables
     counter = 0
     stage = None

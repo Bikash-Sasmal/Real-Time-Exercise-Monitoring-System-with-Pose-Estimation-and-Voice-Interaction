@@ -43,6 +43,7 @@ if __name__ == "__main__":
                 if "go to sleep" in query:
                     speak("ok sir , You can call me anytime")
                     break
+
                 elif "left hand" in query:
                   speak("Let's start your left side hand doumble lifting,sir")
                   from left_hand_dumble_lifting import  perform_pose_left
@@ -52,6 +53,11 @@ if __name__ == "__main__":
                   from right_hand_dumble_lifting import  perform_pose_right
                   speak("Let's start your right side hand doumble lifting,sir")
                   perform_pose_right(hand = "right", side = "right")
+
+                elif "squat" in query:
+                  from squat import  squat_counter
+                  speak("Let's start your squat exercise,sir")
+                  squat_counter()
         
                 elif "exit" in query:
                   speak("exit in this programm, sir")
