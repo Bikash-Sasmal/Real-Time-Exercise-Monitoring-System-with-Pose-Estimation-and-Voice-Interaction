@@ -89,4 +89,3 @@ def squat_counter():
     cap.release()
     cv2.destroyAllWindows()
 
-squat_counter()
