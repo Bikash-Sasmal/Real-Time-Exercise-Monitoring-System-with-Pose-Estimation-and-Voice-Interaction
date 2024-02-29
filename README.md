@@ -1,4 +1,5 @@
-   <h1>Real-Time Indoor Workout Analysis with Voice Assistant</h1>
+   <h1>Real-Time Exercise Monitoring System with Pose Estimation and Voice Interaction
+</h1>
     <p>This project combines real-time indoor workout analysis with a voice assistant to enhance your fitness routine. It leverages technologies such as MediaPipe, OpenCV, NumPy, pyttsx3, and SpeechRecognition to provide a seamless workout experience.</p>
     <h2>Commands:</h2>
     <ul>
