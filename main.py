@@ -44,12 +44,12 @@ if __name__ == "__main__":
                     speak("ok sir , You can call me anytime")
                     break
 
-                elif "left hand" in query:
+                elif "left side hand" in query:
                   speak("Let's start your left side hand doumble lifting,sir")
                   from left_hand_dumble_lifting import  perform_pose_left
                   perform_pose_left(hand = "left")
 
-                elif "right hand" in query:
+                elif "right side hand" in query:
                   from right_hand_dumble_lifting import  perform_pose_right
                   speak("Let's start your right side hand doumble lifting,sir")
                   perform_pose_right(hand = "right", side = "right")

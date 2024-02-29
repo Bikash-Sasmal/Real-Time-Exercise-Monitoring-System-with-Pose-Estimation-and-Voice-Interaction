@@ -5,11 +5,13 @@
         <li><strong>Start training:</strong><p> Begin the workout analysis and voice assistant functionalities.</p></li>
         <li><strong>Left side hand double lifting:</strong><p> Open the camera to track and count repetitions for left-hand exercises.</p></li>
         <li><strong>Right side hand double lifting:</strong> <p>Open the camera to track and count repetitions for right-hand exercises.</p></li>
+        <li><strong>squat exercise:</strong> <p>Open the camera to track and count repetitions for squat exercises.</p></li>
     </ul>
     <h2>Features:</h2>
     <ul>
         <li><strong>Real-time Workout Analysis:</strong><p> Utilizes MediaPipe and OpenCV to analyze and track workout movements in real-time.</p></li>
         <li><strong>Left and Right Hand Tracking:</strong> <p>Differentiates between left and right hand movements for precise workout analysis.</p></li>
+        <li><strong>Squat Exercise:</strong> <p>squat workout analysis.</p></li>
         <li><strong>Repetition Counting:</strong> <p>Automatically counts the number of repetitions performed during each exercise session.</p></li>
     </ul>
     <h2>Requirements:</h2>
